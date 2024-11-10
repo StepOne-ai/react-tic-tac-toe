@@ -1,8 +1,10 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import Game from './Game';
+import bridge from "@vkontakte/vk-bridge";
+
+import React from "react";
+import ReactDOM from "react-dom";
+import "./index.css";
+import Game from "./Game";
 
 // ========================================
-
-ReactDOM.render(<Game />, document.getElementById('root'));
+bridge.send("VKWebAppInit", {});
+ReactDOM.render(<Game />, document.getElementById("root"));
