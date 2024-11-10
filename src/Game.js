@@ -133,6 +133,11 @@ class Game extends React.Component {
           <button className="reset-button path-buttons" onClick={() => this.restartGame()}>
             Reset Game
           </button>
+              <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" style="text-decoration: none;">
+                <button className="reset-button path-buttons">
+                  Leaderboard
+                </button>
+              </a>
         </div>
         <div className="game-info">
           <div className="status-bar">{status}</div>
