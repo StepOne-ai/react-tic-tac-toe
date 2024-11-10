@@ -23,7 +23,7 @@ div.game-board {
 }
 
 .square {
-  background: black;
+  background: #fff;
   border: 1px solid rgb(10, 2, 2);
   float: left;
   font-size: 34px;
